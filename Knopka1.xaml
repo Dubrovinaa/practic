@@ -1,0 +1,20 @@
+﻿<Window x:Name="Window3" x:Class="compcomp.Knopka1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:compcomp"
+        mc:Ignorable="d"
+        Title="" Height="567" Width="984.5">
+    <Grid Background="#FF9FD88E">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="479*"/>
+            <ColumnDefinition Width="313*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="                                           Напишите нам&#xD;&#xA;Свяжитесь с  нами по e-mail, мы ответим вам в течение одного &#xD;&#xA;рабочего дня. " HorizontalAlignment="Left" Margin="174,28,0,0" VerticalAlignment="Top" BorderBrush="#FF68EC2A" Width="630" Background="#FF8CE871" FontSize="20" Height="97" Grid.ColumnSpan="2" FontFamily="Comic Sans MS"/>
+        <Label Content="                                     С чего начать?&#xD;&#xA;Раскажите нам про свой продукт в любой удобной для вас форме.&#xD;&#xA;Мы подберем специалистов под вашу идею и с учетом способа &#xD;&#xA;реализации и характера.                                                               " HorizontalAlignment="Left" Margin="174,130,0,0" VerticalAlignment="Top" Width="630" Height="121" FontSize="20" Background="#FF8CE871" Grid.ColumnSpan="2" FontFamily="Comic Sans MS"/>
+        <Label Content="                               Конфиденциальность &#xD;&#xA;Мы заботимся о конфиденциальности нащих клиентов, не&#xD;&#xA;допуская их передачи третьим лицам." HorizontalAlignment="Left" Margin="174,256,0,0" VerticalAlignment="Top" Width="630" Height="111" FontSize="20" Background="#FF8CE871" Grid.ColumnSpan="2" FontFamily="Comic Sans MS"/>
+        <Label Content="Россия, Самарская область, Тольятти, улица Победы 46, индекс ХХХХХХ. &#xD;&#xA;E-mail: yegroup@ya.ru. Также вы можете связаться с нами по телефону 88005553535." HorizontalAlignment="Left" Margin="88,458,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="840" FontFamily="Comic Sans MS" FontSize="20" Height="68"/>
+
+    </Grid>
+</Window>

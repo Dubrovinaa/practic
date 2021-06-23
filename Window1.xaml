@@ -1,0 +1,20 @@
+﻿<Window x:Class="compcomp.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:compcomp"
+        mc:Ignorable="d"
+        Title="" Height="692.716" Width="1073.364" ResizeMode="NoResize" Background="#FF23917C">
+    <Grid Margin="0,0,0,77">
+        <Label Content="О КОМПАНИИ" HorizontalAlignment="Left" Margin="435,10,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Historic" FontSize="36" BorderBrush="White" Height="48" Width="257" Foreground="White"/>
+        <Label Content="Основанная в 2001 году компания &quot;YE Group&quot; является одни из ведущих разработчиков ПО &#xD;&#xA;в СНГ. Мы предоставляем услуги полного цик ла поразработке, внедрению и&#xD;&#xA;сопровождению программных решений. Накопленные знания и опыт позволяют нам &#xD;&#xA;успешно выполнять задачи разной сложности и направленности." HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Height="144" Width="1047" FontFamily="Segoe UI Historic" FontSize="24"/>
+        <Label Content="        ОСНОВАНА&#xD;&#xA;              2001&#xD;&#xA;            ноябрь&#xD;&#xA;" HorizontalAlignment="Left" Margin="0,237,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" Height="131" Background="#FF255149" Width="280"/>
+        <Label Content="                            ШТАТ&#xD;&#xA;                             1709&#xD;&#xA;                       сотрудников" HorizontalAlignment="Left" Margin="285,237,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" FontFamily="Segoe UI Historic" Height="131" Width="450" Background="#FF255149"/>
+        <Label Content="       КЛИЕНТСКАЯ БАЗА&#xD;&#xA;                    709&#xD;&#xA;     клиентов и партнеров" HorizontalAlignment="Left" Margin="740,237,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Historic" FontSize="24" Foreground="White" Height="131" Background="#FF255149" Width="327"/>
+        <Label Content="Партнеры" HorizontalAlignment="Left" Margin="35,368,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Historic" FontSize="36" Background="#00000000" Foreground="White"/>
+        
+        <Image Margin="0,426,0,-73" Source="Image5.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
